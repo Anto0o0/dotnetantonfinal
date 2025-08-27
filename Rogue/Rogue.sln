@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rogue", "Rogue.csproj", "{FE39FCA6-E6AC-4E41-AE42-2F59F0E15D34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnemyEditor", "..\EnemyEditor\EnemyEditor.csproj", "{0E7F2A2B-D63F-46BF-BCE7-B81B442E0BD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RayGuiCreator", "..\..\..\..\..\..\EiTuuKoskaanValmiiksProju\Rogue.netThing-main\RayGuiCreator-main\RayGuiCreator\RayGuiCreator.csproj", "{1A23DB9C-B706-4891-91F3-03D9211927E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurboMapReader", "..\..\..\..\..\..\EiTuuKoskaanValmiiksProju\Rogue.netThing-main\TurboMapReader-main\TurboMapReader.csproj", "{D969B2C2-5F1B-4250-84B1-56F5D494FF10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE39FCA6-E6AC-4E41-AE42-2F59F0E15D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE39FCA6-E6AC-4E41-AE42-2F59F0E15D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE39FCA6-E6AC-4E41-AE42-2F59F0E15D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE39FCA6-E6AC-4E41-AE42-2F59F0E15D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7F2A2B-D63F-46BF-BCE7-B81B442E0BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7F2A2B-D63F-46BF-BCE7-B81B442E0BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7F2A2B-D63F-46BF-BCE7-B81B442E0BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7F2A2B-D63F-46BF-BCE7-B81B442E0BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A23DB9C-B706-4891-91F3-03D9211927E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A23DB9C-B706-4891-91F3-03D9211927E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A23DB9C-B706-4891-91F3-03D9211927E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A23DB9C-B706-4891-91F3-03D9211927E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D969B2C2-5F1B-4250-84B1-56F5D494FF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D969B2C2-5F1B-4250-84B1-56F5D494FF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D969B2C2-5F1B-4250-84B1-56F5D494FF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D969B2C2-5F1B-4250-84B1-56F5D494FF10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {991EC02E-4610-4C77-9850-03D390F015CE}
+	EndGlobalSection
+EndGlobal

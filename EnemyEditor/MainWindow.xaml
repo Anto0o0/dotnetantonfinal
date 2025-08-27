@@ -1,0 +1,46 @@
+﻿<Window x:Class="EnemyEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EnemyEditor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label>Enemies</Label>
+        <ListBox Grid.Row="1" x:Name="lstNames"  />
+        
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="5,0,0,0">
+            <Label>Name</Label>
+            <TextBox x:Name="txtName" />
+
+            <Label>Tile Id</Label>
+            <TextBox x:Name="txtTileId" />
+
+            <Label>Hitpoints</Label>
+            <TextBox x:Name="txtHitPoints" />
+
+            <Button x:Name="btnAdd" Margin="0,5,0,0" Click="ButtonAddName_Click">Add to list</Button>
+
+            <Label x:Name="errorLabel">Errors</Label>
+
+            <Button x:Name="btnAddJSON" Margin="0,5,0,0" Click="ButtonAddJSON_Click">Add JSON</Button>
+        </StackPanel>
+       
+
+
+
+
+    </Grid>
+</Window>
