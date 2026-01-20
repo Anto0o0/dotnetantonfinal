@@ -72,7 +72,7 @@ namespace EnemyEditor
 
             if (canSend)
             {
-                Rogue.Enemy addEnemy = new Rogue.Enemy(txtName.Text, spriteID, hitPoints);
+                Rogue.Viholinen addEnemy = new Rogue.Viholinen(txtName.Text, spriteID, hitPoints);
              
                 lstNames.Items.Add(addEnemy);
 
@@ -89,13 +89,13 @@ namespace EnemyEditor
             // Katso kuinka iso taulukko tarvitaan
             int EnemyCount = lstNames.Items.Count;
 
-            List<Rogue.Enemy> tempList = new List<Rogue.Enemy>();
+            List<Rogue.Viholinen> tempList = new List<Rogue.Viholinen>();
 
 
             string filename = "enemies.json";
             for (int i = 0; i < lstNames.Items.Count; i++)
             {
-                Enemy enemy = (Enemy)lstNames.Items[i];
+                Viholinen enemy = (Viholinen)lstNames.Items[i];
                 tempList.Add(enemy);
             }
             string enemiesArrayJSON = JsonConvert.SerializeObject(tempList);
